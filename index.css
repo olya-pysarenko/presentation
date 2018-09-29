@@ -1,0 +1,175 @@
+body {
+  background: #fff !important;
+  background-color: #fff !important;
+  background-image: url(./assets/ic-confetty.svg) !important;
+  background-repeat: no-repeat; 
+}
+
+img {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #000 !important;
+  letter-spacing: 1 !important;
+}
+
+.reveal .controls {
+  color: #b2e2b2 !important;
+}
+
+.reveal .progress {
+  color: #b2e2b2 !important;
+}
+
+.reveal .title {
+  border: 10px solid #b2e2b2;
+  border-radius: 5px;
+  padding: 40px 20px;
+}
+
+.reveal .fragment {
+  color: #000 !important;
+}
+
+.reveal .img-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reveal .padded-section {
+  padding-top: 60px !important;
+}
+
+.reveal .flex {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reveal .flex > ul {
+  padding-right: 10px;
+}
+
+.reveal .flex > div {
+  width: 450px;
+}
+
+.reveal .img-wrapper img {
+  max-width: 100%;
+}
+
+.reveal .img-wrapper.lg {
+  width: 600px;
+}
+
+.reveal .img-wrapper img {
+  width: 100%;
+}
+
+.cypress-logo {
+  transform: scale(0.6);
+}
+
+.important {
+  background: #e85151;
+  display: inline-block;
+  margin-right: 10px !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.reveal ul {
+  list-style-type: none !important;
+}
+
+.reveal ul>li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.reveal ul>li:before {
+  content: '\00b0';
+  position: absolute;
+  top: 15px;
+  color: #b2e2b2 !important;
+  display: inline-block;
+  font-size: 30px;
+  left: -30px;
+}
+
+.reveal .note {
+  width: 400px;
+  background: #f5f484;
+  padding: 20px 20px 20px 80px;
+  box-shadow: 5px 5px 10px -2px rgba(33, 33, 33, 0.3); 
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.reveal .note.lg {
+  width: 700px;
+}
+
+.reveal .pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: 16px;
+  z-index: 1;
+}
+
+.reveal .pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+              inset 3px 3px 3px hsla(0,0%,100%,.2),
+              inset -3px -3px 3px hsla(0,0%,0%,.2),
+              23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.reveal .pin:before {
+  background-color: hsla(0,0%,0%,0.1);
+  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+  content: '';
+
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+
+  transform: rotate(57.5deg);
+  -moz-transform: rotate(57.5deg);
+  -webkit-transform: rotate(57.5deg);
+  -o-transform: rotate(57.5deg);
+  -ms-transform: rotate(57.5deg);
+
+  transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+}
